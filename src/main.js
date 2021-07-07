@@ -6,14 +6,17 @@ import store from "./store";
 import vuetify from "./plugins/vuetify";
 import firebase from "firebase";
 
+
 var firebaseConfig = {
-  apiKey: "AIzaSyCsPawRH64bygKjBEE3VFXcLw_0_jtaR0I",
-  authDomain: "userrrr-8c0ca.firebaseapp.com",
-  projectId: "userrrr-8c0ca",
-  storageBucket: "userrrr-8c0ca.appspot.com",
-  messagingSenderId: "261872576434",
-  appId: "1:261872576434:web:fdcdffd69efdc48ff166ab"
+  apiKey: "AIzaSyDz7EXJfkPSHuAtTX7qVpozQdICqzJdc4c",
+  authDomain: "mobile-app-1d0d4.firebaseapp.com",
+  projectId: "mobile-app-1d0d4",
+  storageBucket: "mobile-app-1d0d4.appspot.com",
+  messagingSenderId: "535960773774",
+  appId: "1:535960773774:web:d1f5acf28a1f48f00e95df",
+  measurementId: "G-YKPDFR0Y72"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 
